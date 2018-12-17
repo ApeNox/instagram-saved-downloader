@@ -14,7 +14,7 @@
     let index = 0;
     const querySelector = $$;
     const getArray = () => {
-      return querySelector('#react-root > section > main > article a > div > div img');
+      return querySelector('#react-root > section > main > div article a > div img');
     };
 
     intervalCleaner = setInterval(() => {
